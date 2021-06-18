@@ -1,0 +1,33 @@
+.button {
+  width: 18vw;
+  padding: 1.2rem;
+  border: 3px solid #fff;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  cursor: pointer;
+  animation-duration: 1s;
+  transition: all 500ms;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  .text {
+    color: #fff;
+    font-size: 1.8rem;
+  }
+  .icon {
+    color: #fff;
+    transition: all 0.3s;
+    font-size: large;
+    display: flex;
+    .iconn {
+      font-size: 20px;
+    }
+  }
+  &:hover {
+    background-color: #234;
+    .icon {
+      transform: rotate(90deg);
+    }
+  }
+}

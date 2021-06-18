@@ -1,0 +1,30 @@
+.nav {
+  width: 100vw;
+  height: 10vh;
+  padding: 0 2rem 0 2rem;
+  box-sizing: border-box;
+  background-color: rgb(248, 233, 198);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 1.4rem;
+  }
+  .menu {
+    width: 50%;
+    .list {
+      display: flex;
+      justify-content: flex-end;
+      li {
+        list-style: none;
+        padding: 0 1rem 0 1rem ;
+        .link {
+          font-size: 1.4rem;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
