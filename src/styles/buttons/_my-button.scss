@@ -1,6 +1,6 @@
 .button {
   width: 18vw;
-  padding: 1.2rem;
+  padding: 0.5rem;
   border: 3px solid #fff;
   border-radius: 0.5rem;
   background-color: transparent;
@@ -11,6 +11,8 @@
   flex-flow: row;
   justify-content: space-around;
   align-items: center;
+  color: #fff;
+  font-size: 1.8rem;
   .text {
     color: #fff;
     font-size: 1.8rem;

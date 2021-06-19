@@ -1,7 +1,23 @@
-.home{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90vh;
-    background-color: blue;
+.home {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: blue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .text,
+  .button {
+    margin: 2rem 0 2rem 0;
+  }
+  .text {
+    .text-row {
+      display: block;
+      color: #fff;
+      font-size: 1.8rem;
+      font-family: 'Work Sans', sans-serif;
+    }
+  }
 }
