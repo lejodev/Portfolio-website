@@ -5,21 +5,29 @@ import { Link, BrowserRouter as Router } from "react-router-dom";
 const Navigation = () => {
   return (
     <nav className="nav">
-      <div className="logo">Alejandro Rincon Vera</div>
+      <div className="logo">
+        <a href="#home" className="link">
+          Alejandro Rincon Vera
+        </a>
+      </div>
       <div className="menu">
-        <Router>
-          <ul className="list">
-            <li >
-              <Link className="link">About</Link>
-            </li>
-            <li>
-              <Link className="link">Portfolio</Link>
-            </li>
-            <li>
-              <Link className="link">Contact</Link>
-            </li>
-          </ul>
-        </Router>
+        <ul className="list">
+          <li>
+            <a className="link" href="#about">
+              About
+            </a>
+          </li>
+          <li>
+            <a className="link" href="#portfolio">
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a className="link" href="#contact">
+              Contact
+            </a>
+          </li>
+        </ul>
       </div>
     </nav>
   );
