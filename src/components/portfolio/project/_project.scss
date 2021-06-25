@@ -1,0 +1,11 @@
+.project {
+    height: 26rem;
+    box-sizing: border-box;
+    .project-card {
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

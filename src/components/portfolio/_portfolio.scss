@@ -1,5 +1,10 @@
 .portfolio {
+  padding: 0 4rem 0 4rem;
+  box-sizing: border-box;
   min-height: 90vh;
   padding-top: 10vh;
   background-color: wheat;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
 }
