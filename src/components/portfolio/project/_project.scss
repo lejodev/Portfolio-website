@@ -1,11 +1,37 @@
 .project {
-    height: 26rem;
+  height: 30rem;
+  .project-card {
     box-sizing: border-box;
-    .project-card {
-        height: 100%;
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-        justify-content: center;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1.5fr 3fr;
+    .card-image {
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
+    .card-body {
+      // height: 100%;
+      box-sizing: border-box;
+      display: grid;
+      grid-template-rows: 1fr 5fr 1fr;
+      .text {
+          text-decoration: none;
+      }
+    }
+    .button {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+  }
+  &:hover {
+    transform: scale(1.02);
+    .card-body {
+        .text {
+            text-decoration: none;
+        }
+    }
+  }
 }

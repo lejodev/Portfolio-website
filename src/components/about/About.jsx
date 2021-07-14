@@ -22,10 +22,10 @@ const About = () => {
           ></div>
           <h1 className="who-i-am-title">Who i am</h1>
           <div className="who-i-am-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
-            animi culpa et accusantium, illo sunt iste molestias debitis
-            accusamus dolor rem nam porro. Voluptate qui fugiat excepturi,
-            distinctio dolor praesentium?
+            Hi, I am Alejandro Rincón Vera. I am a full stack software
+            developer. I like frontend and backend. Always learning and
+            improving my code quality to ensure deliver readable, maintainable
+            and scalable code.
           </div>
         </div>
         <div className="skills">
