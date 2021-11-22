@@ -19,7 +19,7 @@ const Navigation = () => {
           </li>
           <li>
             <a className="link" href="#portfolio">
-              Portfolio
+              Projects
             </a>
           </li>
           <li>
