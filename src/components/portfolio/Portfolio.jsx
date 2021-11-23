@@ -7,11 +7,11 @@ import gifos1 from "../../images/gifos/gifos1.PNG";
 const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
-      <div className="projects-title">Projects</div>
+      <div className="projects-title">PROJECTS</div>
       <section className="projects">
         <Project
           image={p1}
-          title="Project 1"
+          title="Podcast channel"
           projectDescription="Static, responsive vanilla css landing page for a podcast service with a burger menu"
           projectLink="https://github.com/lejodev/Acamica-project1"
         />
@@ -25,6 +25,11 @@ const Portfolio = () => {
           title="Services"
           projectDescription=" ** Working on ** Full stack app that lets user choose an hour to get a service "
           projectLink="https://github.com/lejodev/delivery-services-web-app"
+        />
+        <Project
+          title="Delilah Restó"
+          projectDescription="Backend project for restaurant's admins and users"
+          projectLink="https://github.com/lejodev/Delilah-Resto"
         />
         
       </section>

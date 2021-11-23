@@ -20,12 +20,24 @@ const About = () => {
             className="who-i-am-photo"
             style={{ backgroundImage: `url(${me})` }}
           ></div>
-          <h1 className="who-i-am-title">Who i am</h1>
+          <h1 className="who-i-am-title">ABOUT ME</h1>
           <div className="who-i-am-text">
-            Hi, I am Alejandro Rincón Vera. I am a full stack software
-            developer. I like frontend and backend. Always learning and
-            improving my code quality to ensure deliver readable, maintainable
-            and scalable code.
+            <p className="paragraph">
+              Hi, I am Alejandro Rincón Vera. Full stack web developer. I like
+              to create new things, bring life to ideas and solutions through
+              software, I'm currently working with the MERN stack.
+            </p>
+            <p className="paragraph">
+              I'm pretty sure that through software we can build the world of
+              the future. So i will keep posting here part of the software stuff
+              i make.
+            </p>
+            <p className="paragraph">
+              Of course, I'm open to job offers, feedback and talking about
+              projects. If so, please feel free to let me know via
+              <a href="#contact"> contact</a> section. Have a great day and keep
+              going on.
+            </p>
           </div>
         </div>
         <div className="skills">

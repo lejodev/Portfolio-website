@@ -14,17 +14,17 @@ const Navigation = () => {
         <ul className="list">
           <li>
             <a className="link" href="#about">
-              About
+              ABOUT
             </a>
           </li>
           <li>
             <a className="link" href="#portfolio">
-              Projects
+              PROJECTS
             </a>
           </li>
           <li>
             <a className="link" href="#contact">
-              Contact
+              CONTACT
             </a>
           </li>
         </ul>

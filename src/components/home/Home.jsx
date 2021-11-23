@@ -22,7 +22,7 @@ const Home = () => {
       </div>
       <div className="button">
         <a href="#about" className="text link">
-          See my work
+          ABOUT ME
         </a>
         <div className="icon">
           <BsArrowRight className="iconn" size={40} />

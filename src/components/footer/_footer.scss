@@ -1,0 +1,22 @@
+.footer {
+  height: 4rem;
+  display: flex;
+  background-color: #234;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  .author {
+    font-size: smaller;
+  }
+  .icons-container {
+    a {
+        &:visited {
+            color: white;
+        }
+      .icon {
+        font-size: 2rem;
+        margin-left: 2rem;
+      }
+    }
+  }
+}

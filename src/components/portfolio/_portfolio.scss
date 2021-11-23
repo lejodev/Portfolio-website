@@ -1,16 +1,11 @@
-@use "../../fonts/_fonts.scss" as fonts;
-
 .portfolio {
   height: fit-content;
-  background-color: rgb(29, 33, 53);
+  background-color: rgb(204, 191, 9);
   padding-top: 15vh;
-  margin-bottom: 15vh;
-  color: white;
-  // .projects-title {
+  // color: white;
   .projects-title {
     text-align: center;
     margin-bottom: 4rem;
-    // @include fonts.title;
     font-family: "Heebo", sans-serif;
     font-size: 3rem;
   }
@@ -18,7 +13,6 @@
     padding: 0 4rem 0 4rem;
     box-sizing: border-box;
     min-height: 90vh;
-    padding-top: 10vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0.6rem;
