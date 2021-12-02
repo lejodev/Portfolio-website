@@ -1,15 +1,32 @@
 import React from "react";
 import "./_contact.scss";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_cfgbhez",
+        "template_j1cwa3f",
+        e.target,
+        "user_fhFkAb44WG1pMgD5at18A"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  }
+
   return (
     <div className="contact" id="contact">
       <h1 className="contact-title">CONTACT</h1>
-      <form
-        className="form"
-        action="https://formsubmit.co/alejandro.rv97@gmail.com"
-        method="post"
-      >
+      <form className="form" onSubmit={sendEmail}>
         <input
           type="text"
           name="name"
@@ -25,7 +42,6 @@ const Contact = () => {
         <input
           type="hidden"
           name="_subject"
-          value="EMAIL FROM PORTFOLIO"
           className="input"
           placeholder="Subject"
         />
@@ -35,8 +51,6 @@ const Contact = () => {
           className="input message"
           placeholder="Message"
         />
-        <input type="hidden" name="_captcha" value="false" className="input" />
-        <input type="hidden" name="_template" value="table" className="input" />
         <button className="submit" type="submit">
           SEND
         </button>
