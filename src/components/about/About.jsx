@@ -20,7 +20,7 @@ const About = () => {
             className="who-i-am-photo"
             style={{ backgroundImage: `url(${me})` }}
           ></div>
-          <h1 className="who-i-am-title">ABOUT ME</h1>
+          <h1 className="who-i-am-title">Who I am?</h1>
           <div className="who-i-am-text">
             <p className="paragraph">
               Hi, I am Alejandro Rincón Vera. Full stack web developer. I like

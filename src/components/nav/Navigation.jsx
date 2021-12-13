@@ -1,5 +1,6 @@
 import React from "react";
 import "./_navigation.scss";
+import BurgerMenu from "./burgerMenu/BurgerMenu";
 import { Link, BrowserRouter as Router } from "react-router-dom";
 
 const Navigation = () => {
@@ -11,6 +12,7 @@ const Navigation = () => {
         </a>
       </div>
       <div className="menu">
+        <BurgerMenu />
         <ul className="list">
           <li>
             <a className="link" href="#about">

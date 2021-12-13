@@ -8,33 +8,81 @@
   box-sizing: border-box;
   background-color: #234;
   display: flex;
+  flex-flow: row;
   justify-content: space-between;
   align-items: center;
   z-index: 6;
-  .logo {
-    height: 70%;
-    color: #fff;
-    border-top: 3px solid #fff;
-    border-bottom: 3px solid #fff;
-    font-size: 1.4rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    .link {
-      @include internal-link;
+
+  //Mobile devices
+  @media screen and(max-width: 480px) {
+    .logo {
+      height: 70%;
+      width: 60%;
+      background-color: coral;
+      color: #fff;
+      border-top: 3px solid #fff;
+      border-bottom: 3px solid #fff;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      .link {
+        @include internal-link;
+        font-size: 1.2rem;
+      }
+    }
+    .menu {
+      width: 40%;
+      height: 100%;
+      background-color: burlywood;
+      .list {
+        top: 10vh;
+        background-color: lawngreen;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-end;
+        li {
+          list-style: none;
+          padding: 0 1rem 0 1rem;
+          .link {
+            @include internal-link;
+          }
+        }
+      }
     }
   }
-  .menu {
-    width: 50%;
-    .list {
+
+  // Bigger screens
+  @media screen and(min-width: 481px) {
+    .logo {
+      height: 70%;
+      color: #fff;
+      border-top: 3px solid #fff;
+      border-bottom: 3px solid #fff;
+      font-size: 1.4rem;
+      cursor: pointer;
       display: flex;
-      justify-content: flex-end;
-      li {
-        list-style: none;
-        padding: 0 1rem 0 1rem;
-        .link {
-          @include internal-link;
+      align-items: center;
+      text-decoration: none;
+      .link {
+        @include internal-link;
+      }
+    }
+    .menu {
+      // .burgerMenu {
+      //   display: none;
+      // }
+      width: 50%;
+
+      .list {
+        display: flex;
+        justify-content: flex-end;
+        li {
+          list-style: none;
+          padding: 0 1rem 0 1rem;
+          .link {
+            @include internal-link;
+          }
         }
       }
     }
