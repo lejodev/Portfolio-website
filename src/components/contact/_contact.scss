@@ -5,6 +5,31 @@
     width: 100%;
     padding-top: 15vh;
     background-color: rgb(204, 191, 9);
+    .form {
+      // padding: 0.3rem;
+      display: grid;
+      grid-template-areas:
+        "name email"
+        "message message"
+        "submit submit";
+      gap: 0.2rem;
+      .input {
+        height: 3rem;
+      }
+      .name {
+        grid-area: name;
+      }
+      .email {
+        grid-area: email;
+      }
+      .message {
+        grid-area: message;
+      }
+      .submit {
+        grid-area: submit;
+        height: 3rem;
+      }
+    }
   }
   @media screen and(min-width: 481px) {
     height: 90vh;
@@ -17,6 +42,33 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    .form {
+      // padding: 0.3rem;
+      display: grid;
+      height: 50%;
+      width: 60%;
+      grid-template-areas:
+        "name email"
+        "message message"
+        "submit submit";
+      gap: 0.2rem;
+      .input {
+        height: 3rem;
+      }
+      .name {
+        grid-area: name;
+      }
+      .email {
+        grid-area: email;
+      }
+      .message {
+        grid-area: message;
+      }
+      .submit {
+        grid-area: submit;
+        height: 3rem;
+      }
+    }
   }
   .contact-title {
     text-align: center;
@@ -24,27 +76,5 @@
     font-family: "Heebo", sans-serif;
     font-size: 3rem;
   }
-  .form {
-    margin: auto;
-    display: grid;
-    grid-template-areas:
-      "name email"
-      "message message"
-      "submit submit";
-    height: 60%;
-    width: 45%;
-    // gap: 0.7rem;
-    .name {
-      grid-area: name;
-    }
-    .email {
-      grid-area: email;
-    }
-    .message {
-      grid-area: message;
-    }
-    .submit {
-      grid-area: submit;
-    }
-  }
+  
 }

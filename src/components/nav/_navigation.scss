@@ -22,7 +22,7 @@
       color: #fff;
       border-top: 3px solid #fff;
       border-bottom: 3px solid #fff;
-      cursor: pointer;
+      // cursor: pointer;
       display: flex;
       align-items: center;
       text-decoration: none;
@@ -32,15 +32,17 @@
       }
     }
     .menu {
-      width: 40%;
+      width: 10vw;
       height: 100%;
       background-color: burlywood;
       .list {
+        width: 40vw;
+        transform: translate(-30vw) ;
         top: 10vh;
         background-color: lawngreen;
         display: flex;
         flex-flow: column;
-        justify-content: flex-end;
+        justify-content: flex-end; //Transform left padding to a relational value
         li {
           list-style: none;
           padding: 0 1rem 0 1rem;
