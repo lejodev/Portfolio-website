@@ -21,13 +21,15 @@
       color: #fff;
       border-top: 3px solid #fff;
       border-bottom: 3px solid #fff;
-      // cursor: pointer;
+      cursor: pointer;
       display: flex;
+      flex-flow: row;
       align-items: center;
       text-decoration: none;
       .link {
         @include internal-link;
         font-size: 1.2rem;
+        font-size: 3vw;
       }
     }
     .menu {
@@ -69,10 +71,10 @@
       }
     }
     .menu {
-      // .burgerMenu {
-      //   display: none;
-      // }
-      width: 50%;
+      .burgerMenu {
+        display: none;
+      }
+      // width: 50%;
 
       .list {
         display: flex;

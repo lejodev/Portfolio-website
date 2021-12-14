@@ -1,4 +1,5 @@
 .contact {
+  // Mobile devices
   @media screen and(max-width: 480px) {
     box-sizing: border-box;
     height: 90vh;
@@ -7,24 +8,23 @@
     background-color: rgb(204, 191, 9);
     .form {
       // padding: 0.3rem;
-      display: grid;
-      grid-template-areas:
-        "name email"
-        "message message"
-        "submit submit";
-      gap: 0.2rem;
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      padding: 0 0.6rem;
       .input {
         height: 3rem;
+        margin: 0.6rem 0 0.6rem 0;
       }
-      .name {
-        grid-area: name;
-      }
-      .email {
-        grid-area: email;
-      }
-      .message {
-        grid-area: message;
-      }
+      // .name {
+      //   grid-area: name;
+      // }
+      // .email {
+      //   grid-area: email;
+      // }
+      // .message {
+      //   grid-area: message;
+      // }
       .submit {
         grid-area: submit;
         height: 3rem;
@@ -76,5 +76,4 @@
     font-family: "Heebo", sans-serif;
     font-size: 3rem;
   }
-  
 }
