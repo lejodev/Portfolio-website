@@ -10,31 +10,32 @@ const Navigation = () => {
     <nav className="nav">
       <div className="logo">
         <a href="#home" className="link">
-          Alejandro Rincon Vera
+          Alejandro Rincon
         </a>
       </div>
-      <div className="menu">
-        <BurgerMenu onDisplayMenu={() => setDisplayMenu(!displayMenu)} />
-        {displayMenu ? (
-          <ul className="list">
-            <li>
-              <a className="link" href="#about">
-                ABOUT
-              </a>
-            </li>
-            <li>
-              <a className="link" href="#portfolio">
-                PROJECTS
-              </a>
-            </li>
-            <li>
-              <a className="link" href="#contact">
-                CONTACT
-              </a>
-            </li>
-          </ul>
-        ) : null}
-      </div>
+      <input type="checkbox" name="menuTriggerer" id="menuTriggerer" />
+      <label htmlFor="menuTriggerer" className="burgerMenu">
+        <div className="stick stick1"></div>
+        <div className="stick stick2"></div>
+        <div className="stick stick3"></div>
+      </label>
+      <ul className="list-menu">
+        <li>
+          <a className="link" href="#about">
+            ABOUT
+          </a>
+        </li>
+        <li>
+          <a className="link" href="#portfolio">
+            PROJECTS
+          </a>
+        </li>
+        <li>
+          <a className="link" href="#contact">
+            CONTACT
+          </a>
+        </li>
+      </ul>
     </nav>
   );
 };
