@@ -1,124 +1,126 @@
-.about {
-  min-height: 90vh;
-  padding-top: 15vh;
-  padding-bottom: 15vh;
-  background-color: rgb(204, 191, 9);
-  transform-origin: center;
-  display: flex;
-  flex-flow: column;
-  .title {
-    text-align: center;
-    margin-bottom: 4rem;
-    font-family: "Heebo", sans-serif;
-    font-size: 3rem;
-  }
-  @media screen and(min-width: 481px) {
-    .about-content {
-      display: flex;
-      .who-i-am {
-        width: 45%;
-        border-right: 3px solid #000;
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-        justify-content: center;
-        .who-i-am-photo {
-          width: 15rem;
-          height: 15rem;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-origin: content-box;
-          background-size: cover;
-          border-radius: 50%;
-        }
-        .who-i-am-text {
-          font-family: "Open Sans", sans-serif;
-          font-size: large;
-          padding: 0 1rem;
-          font-family: "Heebo", sans-serif;
-          // text-align: center;
-        }
-      }
-      .skills {
-        box-sizing: border-box;
-        width: 55%;
-        min-height: 50vh;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        gap: 4rem;
-        grid-template-areas:
-          "skill skill skill"
-          "skill skill skill"
-          "skill";
-        .skill {
-          display: flex;
-          flex-flow: column;
-          align-items: center;
-          justify-content: center;
-          .logo {
-            font-size: 6rem;
-            grid-area: "skill";
-            text-align: center;
-          }
-        }
-      }
-    }
-  }
 
-  //Mobile devices
-  @media screen and(max-width: 480px) {
-    .about-content {
-      display: flex;
-      flex-flow: column;
-      .who-i-am {
-        width: 100%;
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-        justify-content: center;
-        .who-i-am-photo {
-          width: 15rem;
-          height: 15rem;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-origin: content-box;
-          background-size: cover;
-          border-radius: 50%;
-        }
-        .who-i-am-text {
-          font-family: "Open Sans", sans-serif;
-          font-size: large;
-          padding: 0 1rem;
-          font-family: "Heebo", sans-serif;
-          // text-align: center;
-        }
-      }
-      .skills {
-        box-sizing: border-box;
-        width: 100%;
-        margin-top: 5vh;
-        min-height: 50vh;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        // gap: 4rem;
-        grid-template-areas:
-          "skill skill skill"
-          "skill skill skill"
-          "skill";
-        .skill {
-          display: flex;
-          flex-flow: column;
-          align-items: center;
-          justify-content: center;
-          .logo {
-            font-size: 4rem;
-            grid-area: "skill";
-            text-align: center;
-          }
-        }
-      }
-    }
-  }
-}
+
+// .about {
+//   min-height: 90vh;
+//   padding-top: 15vh;
+//   padding-bottom: 15vh;
+//   background-color: rgb(204, 191, 9);
+//   transform-origin: center;
+//   display: flex;
+//   flex-flow: column;
+//   .title {
+//     text-align: center;
+//     margin-bottom: 4rem;
+//     font-family: "Heebo", sans-serif;
+//     font-size: 3rem;
+//   }
+//   @media screen and(min-width: 481px) {
+//     .about-content {
+//       display: flex;
+//       .who-i-am {
+//         width: 45%;
+//         border-right: 3px solid #000;
+//         display: flex;
+//         flex-flow: column;
+//         align-items: center;
+//         justify-content: center;
+//         .who-i-am-photo {
+//           width: 15rem;
+//           height: 15rem;
+//           background-position: center;
+//           background-repeat: no-repeat;
+//           background-origin: content-box;
+//           background-size: cover;
+//           border-radius: 50%;
+//         }
+//         .who-i-am-text {
+//           font-family: "Open Sans", sans-serif;
+//           font-size: large;
+//           padding: 0 1rem;
+//           font-family: "Heebo", sans-serif;
+//           // text-align: center;
+//         }
+//       }
+//       .skills {
+//         box-sizing: border-box;
+//         width: 55%;
+//         min-height: 50vh;
+//         display: grid;
+//         grid-template-columns: repeat(3, 1fr);
+//         grid-template-rows: repeat(3, 1fr);
+//         gap: 4rem;
+//         grid-template-areas:
+//           "skill skill skill"
+//           "skill skill skill"
+//           "skill";
+//         .skill {
+//           display: flex;
+//           flex-flow: column;
+//           align-items: center;
+//           justify-content: center;
+//           .logo {
+//             font-size: 6rem;
+//             grid-area: "skill";
+//             text-align: center;
+//           }
+//         }
+//       }
+//     }
+//   }
+
+//   //Mobile devices
+//   @media screen and(max-width: 480px) {
+//     .about-content {
+//       display: flex;
+//       flex-flow: column;
+//       .who-i-am {
+//         width: 100%;
+//         display: flex;
+//         flex-flow: column;
+//         align-items: center;
+//         justify-content: center;
+//         .who-i-am-photo {
+//           width: 15rem;
+//           height: 15rem;
+//           background-position: center;
+//           background-repeat: no-repeat;
+//           background-origin: content-box;
+//           background-size: cover;
+//           border-radius: 50%;
+//         }
+//         .who-i-am-text {
+//           font-family: "Open Sans", sans-serif;
+//           font-size: large;
+//           padding: 0 1rem;
+//           font-family: "Heebo", sans-serif;
+//           // text-align: center;
+//         }
+//       }
+//       .skills {
+//         box-sizing: border-box;
+//         width: 100%;
+//         margin-top: 5vh;
+//         min-height: 50vh;
+//         display: grid;
+//         grid-template-columns: repeat(3, 1fr);
+//         grid-template-rows: repeat(3, 1fr);
+//         // gap: 4rem;
+//         grid-template-areas:
+//           "skill skill skill"
+//           "skill skill skill"
+//           "skill";
+//         .skill {
+//           display: flex;
+//           flex-flow: column;
+//           align-items: center;
+//           justify-content: center;
+//           .logo {
+//             font-size: 4rem;
+//             grid-area: "skill";
+//             text-align: center;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

@@ -12,13 +12,8 @@ const Home = () => {
       style={{ backgroundImage: `url(${codingImage})` }}
     >
       <div className="text">
-        <span className="text-row">
-          Hi everyone. My name is Alejandro Rincon Vera.
-        </span>
-        <span className="text-row">
-          I'm a full stack web developer passionate about
-        </span>
-        <span className="text-row">building new stuff through software</span>
+        Hi everyone. My name is Alejandro Rincon Vera. I'm a Frontend web
+        developer. I'm passionate about building new stuff through software
       </div>
       <div className="button">
         <a href="#about" className="text link">
