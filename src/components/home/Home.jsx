@@ -7,21 +7,16 @@ import codingImage from "../../images/coding.jpeg";
 const Home = () => {
   return (
     <div
-      className="home"
+      className="home section"
       id="home"
       style={{ backgroundImage: `url(${codingImage})` }}
     >
-      <div className="text">
-        Hi everyone. My name is Alejandro Rincon Vera. I'm a Frontend web
-        developer. I'm passionate about building new stuff through software
-      </div>
+      <div className="text">Hi I'm Alejandro</div>
+      <div className="text">Frontend web developer</div>
       <div className="button">
-        <a href="#about" className="text link">
+        <a href="#about" className="link">
           ABOUT ME
         </a>
-        <div className="icon">
-          <BsArrowRight className="iconn" size={40} />
-        </div>
       </div>
     </div>
   );

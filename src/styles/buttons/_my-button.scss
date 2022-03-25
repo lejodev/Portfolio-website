@@ -1,84 +1,39 @@
-@import "../../styles/links/links";
-
-@media screen and(min-width: 850px) {
-  .button {
-    width: 18vw;
-    padding: 0.5rem;
-    border: 3px solid white;
-    border-radius: 0.5rem;
-    background-color: transparent;
-    cursor: pointer;
-    animation-duration: 1s;
-    transition: all 500ms;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
-    color: black;
-    font-size: 1.8rem;
-    .text {
-      @include internal-link;
-      font-size: 1.8rem;
-    }
-    .icon {
-      color: #fff;
-      transition: all 0.3s;
-      font-size: large;
-      display: flex;
-      .iconn {
-        font-size: 20px;
-      }
-    }
+.button {
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0.5em;
+  border: 3px solid white;
+  border-radius: 0.5rem;
+  animation-duration: 1s;
+  transition: all 500ms;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  .link {
+    font-size: clamp(1em, 2vw, 2em);
+    color: #fff;
     &:hover {
-      .icon {
-        transform: rotate(90deg);
-      }
+      text-decoration: none;
     }
-    @media (pointer: coarse){
-      .icon {
-        color: #fff;
-        transition: all 0.3s;
-        font-size: large;
-        display: flex;
-        background-color: yellow;
-        .iconn {
-          font-size: 20px;
-        }
-      }
-      &:hover {
-        .icon {
-          transform: rotate(90deg);
-        }
-      }
+    :focus {
+      text-decoration: none;
+    }
+    :visited {
+      text-decoration: none;
+      color: #fff;
     }
   }
 }
 
-@media screen and(max-width: 851px) {
+@media (max-width: 800px) {
   .button {
     width: 50%;
-    border: 3px solid white;
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    .text {
-      @include internal-link;
-      font-size: 1.2rem;
-    }
-    .icon {
-      color: #fff;
-      transition: all 0.3s;
+    .link {
       font-size: large;
-      display: flex;
-      .iconn {
-        font-size: 20px;
-      }
-    }
-    &:hover {
-      .icon {
-        transform-origin: center;
-        transform: rotate(90deg);
+      color: white;
+      &:visited {
+        color: #fff;
       }
     }
   }

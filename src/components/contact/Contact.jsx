@@ -51,7 +51,7 @@ const Contact = () => {
           className="input message"
           placeholder="Message"
         />
-        <button className="submit" type="submit">
+        <button className="input submit" type="submit">
           SEND
         </button>
       </form>

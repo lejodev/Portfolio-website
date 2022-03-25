@@ -2,29 +2,16 @@
   height: fit-content;
   background-color: rgb(204, 191, 9);
   padding-top: 15vh;
-  // color: white;
   .projects-title {
     text-align: center;
     margin-bottom: 4rem;
     font-family: "Heebo", sans-serif;
-    font-size: 3rem;
+    font-size: clamp(1.5rem, calc(1rem + 4vw), 4rem);
   }
-  @media screen and(max-width: 480px) {
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 0.6rem;
-    }
-  }
-
-  @media screen and(min-width: 481px) {
-    .projects {
-      padding: 0 4rem 0 4rem;
-      box-sizing: border-box;
-      min-height: 90vh;
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 0.6rem;
-    }
+  .projects {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    position: relative;
   }
 }

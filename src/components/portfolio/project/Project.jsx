@@ -1,27 +1,42 @@
 import React from "react";
-import { Button } from "react-bootstrap";
 import "./_project.scss";
 import "../../../styles/buttons/_my-button.scss";
-import { BsArrowRight } from "react-icons/bs";
-// import p1 from "../../../images/project1/p1.PNG"
 
 const Project = (props) => {
   return (
     <div className="project">
-      <div className="project-card">
-        <div
-          variant="top"
-          style={{ backgroundImage: `url(${props.image})` }}
-          className="card-image"
-        />
-        <div className="card-body">
-          <div>{props.title}</div>
-          <div className="text">{props.projectDescription}</div>
+      <a
+        href={props.projectLink}
+        target="_blank"
+        className="image-link-container"
+      >
+        <img
+          src={props.image}
+          className="image"
+          alt="Project image"
+          title="Title here"
+        ></img>
+      </a>
+      <section className="project-details-menu">
+        <div className="text">
+          <h2>{props.title}</h2>
+          <p>{props.projectDescription}</p>
         </div>
-        <a href={props.projectLink} target="_blank" className="button">
-          <BsArrowRight />
-        </a>
-      </div>
+        <div className="project-menu">
+          {props.liveProject ? (
+            <button className="button">
+              <a className="link" href={props.liveProject}>
+                Live project
+              </a>
+            </button>
+          ) : null}
+          <button className="button">
+            <a className="link" href={props.projectLink}>
+              Github repo
+            </a>
+          </button>
+        </div>
+      </section>
     </div>
   );
 };

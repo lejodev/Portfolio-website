@@ -3,6 +3,7 @@ import "./_portfolio.scss";
 import Project from "./project/Project";
 import p1 from "../../images/project1/p1.PNG";
 import gifos1 from "../../images/gifos/gifos1.PNG";
+import clock from "../../images/clock.png";
 
 const Portfolio = () => {
   return (
@@ -20,18 +21,15 @@ const Portfolio = () => {
           title="GIFOS"
           projectDescription="Responsive frontend app that allows user to see, create, set and delete favorite gifs, algo set page with light/dark mode. This page was done using sass and using the gifos API"
           projectLink="https://github.com/lejodev/Acamica-project2-GIFOS"
+          liveProject="https://lejodev.github.io/Acamica-project2-GIFOS/index.html"
         />
         <Project
-          title="Services"
-          projectDescription=" ** Working on ** Full stack app that lets user choose an hour to get a service "
-          projectLink="https://github.com/lejodev/delivery-services-web-app"
+          image={clock}
+          title="Clock"
+          projectDescription="Frontend simulation of an analog clock"
+          projectLink="https://github.com/lejodev/clock"
+          liveProject="https://lejodev.github.io/clock/"
         />
-        <Project
-          title="Delilah Restó"
-          projectDescription="Backend project for restaurant's admins and users"
-          projectLink="https://github.com/lejodev/Delilah-Resto"
-        />
-        
       </section>
     </div>
   );

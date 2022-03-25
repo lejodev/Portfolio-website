@@ -1,22 +1,22 @@
 .home {
   display: flex;
   flex-flow: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  height: 100vh;
+  min-height: 90vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  .text,
-  .button {
-    margin: 2rem 0 2rem 0;
-  }
+  background-color: #fff;
   .text {
-    // .text-row {
-    display: block;
     color: #fff;
-    font-size: 1.8rem;
+    font-size: clamp(1.5rem, calc(-0.875rem + 8.333vw), 3.5rem);
     font-family: "Work Sans", sans-serif;
-    // }
+  }
+}
+@media (max-width: 480px) {
+  .home {
+    display: flex;
+    flex-direction: column;
   }
 }

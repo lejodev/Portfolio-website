@@ -12,18 +12,13 @@ import me from "../../images/me.jpg";
 
 const About = () => {
   return (
-    <section className="about" id="about">
-      <h2 className="title">ABOUT ME</h2>
+    <section className="section about" id="about">
       <div className="about-content">
         <div className="who-i-am">
-          <div
-            className="who-i-am-photo"
-            style={{ backgroundImage: `url(${me})` }}
-          ></div>
           <h1 className="who-i-am-title">Who I am?</h1>
           <div className="who-i-am-text">
             <p className="paragraph">
-              Hi, I am Alejandro Rincón Vera. Full stack web developer. I like
+              Hi, I am Alejandro Rincón Vera. Frontend web developer. I like
               to create new things, bring life to ideas and solutions through
               software, I'm currently working with the MERN stack.
             </p>
@@ -41,33 +36,36 @@ const About = () => {
           </div>
         </div>
         <div className="skills">
-          <div className="skill">
-            <FaHtml5 className="logo" />
-            <h5 className="skill-title">HTML</h5>
-          </div>
-          <div className="skill">
-            <IoLogoCss3 className="logo" />
-            <h5 className="skill-title">CSS</h5>
-          </div>
-          <div className="skill">
-            <IoLogoJavascript className="logo" />
-            <h5 className="skill-title">JAVASCRIPT</h5>
-          </div>
-          <div className="skill">
-            <SiMongodb className="logo" />
-            <h5 className="skill-title">MONGODB</h5>
-          </div>
-          <div className="skill">
-            <IoLogoNodejs className="logo" />
-            <h5 className="skill-title">NODE JS</h5>
-          </div>
-          <div className="skill">
-            <IoLogoReact className="logo" />
-            <h5 className="skill-title">REACT JS</h5>
-          </div>
-          <div className="skill">
-            <SiMysql className="logo" />
-            <h5 className="skill-title">MYSQL</h5>
+          <div className="skills-title">Skills</div>
+          <div className="skills-container">
+            <div className="skill">
+              <FaHtml5 className="logo" />
+              <span className="skill-title">HTML</span>
+            </div>
+            <div className="skill">
+              <IoLogoCss3 className="logo" />
+              <span className="skill-title">CSS</span>
+            </div>
+            <div className="skill">
+              <IoLogoJavascript className="logo" />
+              <span className="skill-title">JAVASCRIPT</span>
+            </div>
+            <div className="skill">
+              <IoLogoReact className="logo" />
+              <span className="skill-title">REACT JS</span>
+            </div>
+            <div className="skill">
+              <IoLogoNodejs className="logo" />
+              <span className="skill-title">NODE JS</span>
+            </div>
+            <div className="skill">
+              <SiMongodb className="logo" />
+              <span className="skill-title">MONGODB</span>
+            </div>
+            <div className="skill">
+              <SiMysql className="logo" />
+              <span className="skill-title">MYSQL</span>
+            </div>
           </div>
         </div>
       </div>

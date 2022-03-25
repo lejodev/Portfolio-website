@@ -1,8 +1,12 @@
-
 html {
   scroll-behavior: smooth;
 }
 body {
   margin-top: 10vh;
   box-sizing: border-box;
+  /* background-color: #1d2a35; */
+}
+
+.section {
+  padding: clamp(0.5rem, calc(1rem + 2vw), 5rem);
 }
