@@ -1,7 +1,6 @@
 import React from "react";
 import "./_home.scss";
 import "../../styles/buttons/_my-button.scss";
-import { BsArrowRight } from "react-icons/bs";
 import codingImage from "../../images/coding.jpeg";
 
 const Home = () => {

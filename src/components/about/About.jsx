@@ -8,7 +8,6 @@ import {
   IoLogoReact,
 } from "react-icons/io5";
 import { SiMongodb, SiMysql } from "react-icons/si";
-import me from "../../images/me.jpg";
 
 const About = () => {
   return (
