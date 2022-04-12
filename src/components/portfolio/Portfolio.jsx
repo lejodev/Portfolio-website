@@ -4,6 +4,7 @@ import Project from "./project/Project";
 import p1 from "../../images/project1/p1.PNG";
 import gifos1 from "../../images/gifos/gifos1.PNG";
 import clock from "../../images/clock.png";
+import FIFA21API from "../../images/FIFA21API.png";
 
 const Portfolio = () => {
   return (
@@ -29,6 +30,13 @@ const Portfolio = () => {
           projectDescription="Frontend simulation of an analog clock"
           projectLink="https://github.com/lejodev/clock"
           liveProject="https://lejodev.github.io/clock/"
+        />
+        <Project
+          image={FIFA21API}
+          title="Fetch fifa 21 API"
+          projectDescription="Fetch all the FIFA 21 data using asynchronous calls. This site lets search players and teams and navigate through all the required data. All the required data is obtained on demand and not all at once"
+          projectLink="https://github.com/lejodev/tect-test"
+          liveProject="https://fifa21api-fullstack.herokuapp.com/"
         />
       </section>
     </div>
