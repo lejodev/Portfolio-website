@@ -1,1 +1,1 @@
-Live site [https://lejodev.github.io/Portfolio-website/]
+Live site https://lejodev.github.io/Portfolio-website/
