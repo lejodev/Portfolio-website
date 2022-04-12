@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio-website/static/css/main.25cf685f.chunk.css",
-    "main.js": "/Portfolio-website/static/js/main.a8c05093.chunk.js",
-    "main.js.map": "/Portfolio-website/static/js/main.a8c05093.chunk.js.map",
+    "main.js": "/Portfolio-website/static/js/main.b1f799e9.chunk.js",
+    "main.js.map": "/Portfolio-website/static/js/main.b1f799e9.chunk.js.map",
     "runtime-main.js": "/Portfolio-website/static/js/runtime-main.ac5f5155.js",
     "runtime-main.js.map": "/Portfolio-website/static/js/runtime-main.ac5f5155.js.map",
     "static/js/2.3a458d99.chunk.js": "/Portfolio-website/static/js/2.3a458d99.chunk.js",
@@ -12,6 +12,7 @@
     "index.html": "/Portfolio-website/index.html",
     "static/css/main.25cf685f.chunk.css.map": "/Portfolio-website/static/css/main.25cf685f.chunk.css.map",
     "static/js/2.3a458d99.chunk.js.LICENSE.txt": "/Portfolio-website/static/js/2.3a458d99.chunk.js.LICENSE.txt",
+    "static/media/FIFA21API.b957ddaa.png": "/Portfolio-website/static/media/FIFA21API.b957ddaa.png",
     "static/media/clock.9f4d580f.png": "/Portfolio-website/static/media/clock.9f4d580f.png",
     "static/media/coding.6896874b.jpeg": "/Portfolio-website/static/media/coding.6896874b.jpeg",
     "static/media/gifos1.865faa02.PNG": "/Portfolio-website/static/media/gifos1.865faa02.PNG",
@@ -21,6 +22,6 @@
     "static/js/runtime-main.ac5f5155.js",
     "static/js/2.3a458d99.chunk.js",
     "static/css/main.25cf685f.chunk.css",
-    "static/js/main.a8c05093.chunk.js"
+    "static/js/main.b1f799e9.chunk.js"
   ]
 }
