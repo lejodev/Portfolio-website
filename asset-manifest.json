@@ -1,27 +1,28 @@
 {
   "files": {
     "main.css": "/Portfolio-website/static/css/main.25cf685f.chunk.css",
-    "main.js": "/Portfolio-website/static/js/main.b1f799e9.chunk.js",
-    "main.js.map": "/Portfolio-website/static/js/main.b1f799e9.chunk.js.map",
-    "runtime-main.js": "/Portfolio-website/static/js/runtime-main.ac5f5155.js",
-    "runtime-main.js.map": "/Portfolio-website/static/js/runtime-main.ac5f5155.js.map",
-    "static/js/2.3a458d99.chunk.js": "/Portfolio-website/static/js/2.3a458d99.chunk.js",
-    "static/js/2.3a458d99.chunk.js.map": "/Portfolio-website/static/js/2.3a458d99.chunk.js.map",
-    "static/js/3.feb43edf.chunk.js": "/Portfolio-website/static/js/3.feb43edf.chunk.js",
-    "static/js/3.feb43edf.chunk.js.map": "/Portfolio-website/static/js/3.feb43edf.chunk.js.map",
+    "main.js": "/Portfolio-website/static/js/main.e58db8b8.chunk.js",
+    "main.js.map": "/Portfolio-website/static/js/main.e58db8b8.chunk.js.map",
+    "runtime-main.js": "/Portfolio-website/static/js/runtime-main.1891103d.js",
+    "runtime-main.js.map": "/Portfolio-website/static/js/runtime-main.1891103d.js.map",
+    "static/js/2.ea1e0803.chunk.js": "/Portfolio-website/static/js/2.ea1e0803.chunk.js",
+    "static/js/2.ea1e0803.chunk.js.map": "/Portfolio-website/static/js/2.ea1e0803.chunk.js.map",
+    "static/js/3.80ce2edb.chunk.js": "/Portfolio-website/static/js/3.80ce2edb.chunk.js",
+    "static/js/3.80ce2edb.chunk.js.map": "/Portfolio-website/static/js/3.80ce2edb.chunk.js.map",
     "index.html": "/Portfolio-website/index.html",
     "static/css/main.25cf685f.chunk.css.map": "/Portfolio-website/static/css/main.25cf685f.chunk.css.map",
-    "static/js/2.3a458d99.chunk.js.LICENSE.txt": "/Portfolio-website/static/js/2.3a458d99.chunk.js.LICENSE.txt",
+    "static/js/2.ea1e0803.chunk.js.LICENSE.txt": "/Portfolio-website/static/js/2.ea1e0803.chunk.js.LICENSE.txt",
     "static/media/FIFA21API.b957ddaa.png": "/Portfolio-website/static/media/FIFA21API.b957ddaa.png",
+    "static/media/TELCEL.12468bb8.png": "/Portfolio-website/static/media/TELCEL.12468bb8.png",
     "static/media/clock.9f4d580f.png": "/Portfolio-website/static/media/clock.9f4d580f.png",
     "static/media/coding.6896874b.jpeg": "/Portfolio-website/static/media/coding.6896874b.jpeg",
     "static/media/gifos1.865faa02.PNG": "/Portfolio-website/static/media/gifos1.865faa02.PNG",
     "static/media/p1.285ad817.PNG": "/Portfolio-website/static/media/p1.285ad817.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.ac5f5155.js",
-    "static/js/2.3a458d99.chunk.js",
+    "static/js/runtime-main.1891103d.js",
+    "static/js/2.ea1e0803.chunk.js",
     "static/css/main.25cf685f.chunk.css",
-    "static/js/main.b1f799e9.chunk.js"
+    "static/js/main.e58db8b8.chunk.js"
   ]
 }
