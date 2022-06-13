@@ -5,6 +5,7 @@ import p1 from "../../images/project1/p1.PNG";
 import gifos1 from "../../images/gifos/gifos1.PNG";
 import clock from "../../images/clock.png";
 import FIFA21API from "../../images/FIFA21API.png";
+import TELCEL from "../../images/TELCEL.png";
 
 const Portfolio = () => {
   return (
@@ -37,6 +38,13 @@ const Portfolio = () => {
           projectDescription="Fetch all the FIFA 21 data using asynchronous calls. This site lets search players and teams and navigate through all the required data. All the required data is obtained on demand and not all at once"
           projectLink="https://github.com/lejodev/tect-test"
           liveProject="https://fifa21api-fullstack.herokuapp.com/"
+        />
+        <Project
+          image={TELCEL}
+          title="Telcel Landing Page"
+          projectDescription="Static web taking as example the telcel web page. This project was done with ReactJs, Bootstrap, React Icons, SAAS. Dockerized and deployed with continuous integration and continuous delivery."
+          projectLink="https://github.com/lejodev/tect-test"
+          liveProject="https://lejodev.github.io/telcel-landing-page/"
         />
       </section>
     </div>
